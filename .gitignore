@@ -1,0 +1,11 @@
+# VS Code settings
+.vscode
+
+# emacs backups
+*~
+
+# CMake build directory
+/build*
+
+# appimage executables
+*.AppImage
