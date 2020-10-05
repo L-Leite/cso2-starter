@@ -2,7 +2,7 @@
 
 ![cso2-stater logo](./resources/starter.svg)
 
-[![Build status](https://ci.appveyor.com/api/projects/status/voewv05x5ate6yoj/branch/master?svg=true)](https://ci.appveyor.com/project/L-Leite/cso2-starter/branch/master)
+![Build status](https://ci.appveyor.com/api/projects/status/cxkygajj2ahniov7?svg=true)](https://ci.appveyor.com/project/L-Leite/cso2-starter)
 
 A launch manager for Counter-Strike Online 2
 
