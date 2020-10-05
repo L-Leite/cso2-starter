@@ -62,7 +62,7 @@ if ($isLinux) {
     chmod a+x linuxdeployqt-continuous-x86_64.AppImage
 
     $env:VERSION = $versionStr;
-    ./linuxdeployqt-continuous-x86_64.AppImage ./cso2-starter -appimage
+    ./linuxdeployqt-continuous-x86_64.AppImage ./cso2-starter -extra-plugins=iconengines,imageformats -appimage
 
     if ($isGccBuild) {
         Move-Item *.AppImage -Destination "cso2-starter-$versionStr-linux64_gcc.AppImage"
