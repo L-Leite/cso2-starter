@@ -6,8 +6,13 @@
 
 A launch manager for Counter-Strike Online 2
 
-## Download 
+## Usage
+
 Get the latest build of cso2-starter [here](https://github.com/L-Leite/cso2-starter/releases/latest).
+
+To install, extract the archive to the game's folder.
+
+Finally, open the `cso2-starter` program.
 
 ## Building
 
