@@ -33,7 +33,11 @@ if ($isLinux) {
 }
 elseif ($isWindows) {
     # copy starter itself to the package dir
-    Copy-Item "./build/$curConfig/cso2-starter.exe" -Destination ./build/package/
+    if ($isMsvcBuild) {
+        Copy-Item "./build/$curConfig/cso2-starter.exe" -Destination ./build/package/
+    } else {
+        Copy-Item "./build/cso2-starter.exe" -Destination ./build/package/
+    }
 }
 else {
     Write-Error 'An unknown OS is running this script, implement me.'
