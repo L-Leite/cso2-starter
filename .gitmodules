@@ -1,0 +1,3 @@
+[submodule "external/breeze-icons"]
+	path = external/breeze-icons
+	url = https://invent.kde.org/frameworks/breeze-icons
